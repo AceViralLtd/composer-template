@@ -4,3 +4,7 @@ vendor
 .idea
 .vs
 composer.lock
+*.iml
+auth.json
+vhost.conf
+log.*
