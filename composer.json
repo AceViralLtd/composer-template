@@ -17,7 +17,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "AceViral\\package": "test"
+            "AceViral\\package\\": "test"
         }
     },
     "minimum-stability": "dev",
