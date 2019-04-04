@@ -8,13 +8,17 @@
         "php": ">= 7.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.",
-        "AceViral\\package": "test"
+        "phpunit/phpunit": "^8."
     },
     "autoload": {
-      "psr-4": {
-          "AceViral\\package\\": "src"
-      }
+        "psr-4": {
+            "AceViral\\package\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AceViral\\package": "test"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
