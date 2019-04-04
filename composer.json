@@ -5,10 +5,11 @@
     "description": "Simple composer template for quick start.",
     "type": "library",
     "require": {
-        "php": ">= 7.1"
+        "php": ">= 7.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8."
+        "phpunit/phpunit": "^8.",
+        "vendor\\package": "test"
     },
     "autoload": {
       "psr-4": {
