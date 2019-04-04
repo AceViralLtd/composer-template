@@ -1,7 +1,7 @@
 {
     "repositories": [
     ],
-    "name": "aceviralphp/composer-template",
+    "name": "aceviral/composer-template",
     "description": "Simple composer template for quick start.",
     "type": "library",
     "require": {
