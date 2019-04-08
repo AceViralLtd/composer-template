@@ -1,6 +1,11 @@
 # Composer Template Project
 Replace this file.
 
+## How to Use
+```cmd
+composer create-project aceviral/composer-template projectName
+```
+
 ### Warnings
 * Composer.json is setup with default settings that fit most AceViral projects. However you may need to change the license
 and PHP version.
