@@ -2,6 +2,7 @@
     "repositories": [
     ],
     "name": "aceviralphp/composer-template",
+    "optimize-autoloader": true,
     "description": "Simple composer template for quick start.",
     "type": "library",
     "require": {
