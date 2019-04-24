@@ -1,20 +1,25 @@
 {
     "repositories": [
     ],
-    "name": "aceviralphp/composer-template",
     "optimize-autoloader": true,
+    "name": "aceviral/composer-template",
     "description": "Simple composer template for quick start.",
     "type": "library",
     "require": {
-        "php": ">= 7.1"
+        "php": ">= 7.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^8."
     },
     "autoload": {
-      "psr-4": {
-          "vendor\\package\\": "src"
-      }
+        "psr-4": {
+            "AceViral\\package\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AceViral\\package\\": "test"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
