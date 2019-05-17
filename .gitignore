@@ -8,3 +8,4 @@ composer.lock
 auth.json
 vhost.conf
 log.*
+*.cache
