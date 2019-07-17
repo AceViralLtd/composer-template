@@ -9,3 +9,4 @@ auth.json
 vhost.conf
 log.*
 *.cache
+.session.vim
