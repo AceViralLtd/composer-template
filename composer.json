@@ -2,9 +2,9 @@
     "repositories": [
     ],
     "config": {
-        "optimize-autoloader": true,
+        "optimize-autoloader": true
     },
-    "name": "aceviral/composer-template",
+    "name": "aceviralphp/composer-template",
     "description": "Simple composer template for quick start.",
     "type": "library",
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "AceViral\\package\\": "test"
+            "AceViral\\package\\Test\\": "test"
         }
     },
     "minimum-stability": "stable",

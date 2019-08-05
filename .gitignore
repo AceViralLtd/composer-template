@@ -10,3 +10,4 @@ vhost.conf
 log.*
 *.cache
 .session.vim
+*.vscode
