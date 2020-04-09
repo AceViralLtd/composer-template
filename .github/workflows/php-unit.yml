@@ -1,0 +1,31 @@
+name: Unit Tests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+        matrix:
+            php-version: ["7.2", "7.3", "7.4"]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@verbose
+      with:
+        php-version: ${{ matrix.php-version }}
+
+    - name: Install dependencies
+      env: 
+        COMPOSER_AUTH: '{"github-oauth": {"github.com": "${{ secrets.CI_ACCESS_TOKEN }}"}}'
+      run:  composer install --prefer-dist --no-progress --no-suggest
+
+    - name: PHP Unit
+      run: vendor/bin/phpunit -c phpunit-CI.xml

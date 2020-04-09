@@ -1,3 +1,4 @@
+![Unit Tests](https://github.com/AceviralPHP/[REPO]/workflows/Unit%20Tests/badge.svg)
 # Composer Template Project
 Replace this file.
 
