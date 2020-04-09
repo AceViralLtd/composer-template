@@ -1,10 +1,7 @@
 <?php
 $finder = PhpCsFixer\Finder::create()
-    ->in('lib')
-    ->in('logic')
-    ->in('display/templates')
+    ->in('src')
     ->in('test')
-    ->in('_script')
 ;
 return PhpCsFixer\Config::create()
     ->setRules([
